@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+:root {
+    --primary-color: #002855; 
+}
+
+body {
+    background-color: var(--primary-color); 
+}
+
+#myH1 {
+    margin-top:100px;
+    font-size: 4rem;
+    font-family: 'Press Start 2P', cursive;
+    color: whitesmoke;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    border-radius: 50px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 1.2); /* Adjust the spread radius for brightness */
+}
+
+
+#display {
+    font-size: 5rem;
+    font-weight: bold;
+    font-family: 'Cinzel', serif;
+    color: hsl(0, 0%, 30%);
+    text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+    margin-bottom: 25px;
+}
+
+#laps {
+    list-style: none;
+    padding: 0;
+}
+
+#laps li {
+    background-color: hsl(0, 0%, 95%);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    color: hsl(0, 0%, 30%);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    min-width: 125px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.5s ease;
+}
+
+#startBtn {
+    background-color: hsl(115, 100%, 40%);
+}
+
+#startBtn:hover {
+    background-color: hsl(115, 100%, 30%);
+}
+
+#stopBtn {
+    background-color: hsl(10, 90%, 50%);
+}
+
+#stopBtn:hover {
+    background-color: hsl(10, 90%, 40%);
+}
+
+#resetBtn {
+    background-color: hsl(205, 90%, 60%);
+}
+
+#resetBtn:hover {
+    background-color: hsl(205, 90%, 50%);
+}
+
+#lapBtn {
+    background-color: hsl(250, 80%, 40%);
+}
+
+#lapBtn:hover {
+    background-color: hsl(250, 80%, 30%);
+}
+
+#resetLapBtn {
+    background-color: hsl(63, 96%, 49%);
+}
+
+#resetLapBtn:hover {
+    background-color: hsl(63, 96%, 39%);
+}
+#restartBtn {
+    background-color: hsl(30, 100%, 50%);
+}
+
+#restartBtn:hover {
+    background-color: hsl(30, 100%, 40%);
+}
